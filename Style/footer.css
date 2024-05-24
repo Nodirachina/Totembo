@@ -1,0 +1,81 @@
+@import url(font.css);
+
+.footer {
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+.footer-title {
+    margin-top: 65px;
+    margin-bottom: 40px;
+    margin-right: 111px;
+    color: rgb(50, 50, 50);
+    font-family: 'MR';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.footer-link__list {
+    color: rgb(0, 0, 0);
+    font-family: 'MR';
+    font-size: 18px;
+    line-height: 13px;
+}
+
+.footer-li{
+    margin-bottom: 10px;
+}
+
+.footer-info__text {
+    color: rgb(50, 50, 50);
+    font-family: 'MR';
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-info__phone {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-phone__number {
+    color: rgb(50, 50, 50);
+    font-family: 'MR';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer-info__email {
+    color: rgb(50, 50, 50);
+    font-family: 'MR';
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.footer-sites__image {
+    margin-right: 14px;
+    margin-bottom: 66px;
+}
+
+/*  **** Media start **** */
+
+@media (max-width: 730px) {
+  
+    .footer {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+    
+
+
+/*  **** Media end **** */
